@@ -12,7 +12,7 @@ info:
     url: https://github.com/huggingface/transformers/blob/master/LICENSE
 
 servers:
-  - url: https://main-gpt2-story-gmlee329.endpoint.ainize.ai
+  - url: https://main-gpt2-trump-gmlee329.endpoint.ainize.ai
 
 paths:
   /gpt2-trump/short:
@@ -47,7 +47,7 @@ paths:
         '500':
           description: Server side error
   
-  /gpt2-film/long:
+  /gpt2-trump/long:
     post:
       requestBody:
         required: true
