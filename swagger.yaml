@@ -1,9 +1,9 @@
 openapi: 3.0.1
 
 info:
-  title: ainize-gpt2-story
+  title: ainize-gpt2-trump
   description: |
-      generate story via story based fine-tuned gpt2 model
+      generate trump style tweets via trump's twitter based fine-tuned gpt2 model
   contact:
     name: Ainizer - gyumin Lee
   version: "2.0"
@@ -21,7 +21,7 @@ paths:
         required: true
         description: | 
           Specify a length of the text and set the start prompt for the text to be generated.
-          The length must can be parse to integer
+          The length must can be parsed to integer
         content:
           multipart/form-data:
             schema:
