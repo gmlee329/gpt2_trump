@@ -1,6 +1,6 @@
 # gpt2_trump
 
-This GPT2-story model generates Donald Trump style tweets text.  
+This GPT2-trump model generates Donald Trump style tweets text.  
 When you enter text at the beginning of the tweets, the model gives you the rest of the tweets as long as you want.  
 
 ## How to use
